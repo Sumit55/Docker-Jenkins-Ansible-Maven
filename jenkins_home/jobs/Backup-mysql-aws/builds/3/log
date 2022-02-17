@@ -1,0 +1,24 @@
+Started by user [8mha:////4Cv6b81BrsFh45FRW9UFFjgTyMAEUDWirMG7yzccKneNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mjen
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Backup-mysql-aws
+[SSH] script:
+MYSQL_HOST="db_host"
+AWS_SECRET_KEY=**********
+MYSQL_PASSWORD=**********
+DATABASE_NAME="testdb"
+AWS_BUCKET_NAME="sumit-jenkins-mysql-backup"
+
+/tmp/script.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME
+
+[SSH] executing...
+Could not chdir to home directory /home/remote_user: No such file or directory
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+uploading your db backup
+
+The user-provided path /tmp/db-12-13-1644927233.sql does not exist.
+
+[SSH] completed
+[SSH] exit-status: 255
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE
