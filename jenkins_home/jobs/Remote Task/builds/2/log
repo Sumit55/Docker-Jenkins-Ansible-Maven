@@ -1,0 +1,15 @@
+Started by user [8mha:////4Cv6b81BrsFh45FRW9UFFjgTyMAEUDWirMG7yzccKneNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mjen
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Remote Task
+[SSH] script:
+
+NAME=SUMIT
+echo "Hello, $NAME. Current date and time is $(date)"> /tmp/remote-file
+
+[SSH] executing...
+Could not chdir to home directory /home/remote_user: No such file or directory
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
